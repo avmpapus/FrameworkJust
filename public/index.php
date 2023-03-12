@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Структура Just</title>
     <style>
     img{
         width:100px;
@@ -71,7 +71,7 @@
 <script>
 $(function(){
     $('.title').on('click',function(){
-        document.getElementById('sok').innerText='Just v1.0 - первая версия структуры для сайтостроения, написанная Александром Мартыненко, город Чернигов, Украина.';
+        document.getElementById('sok').innerText='Just v1.0 - первая версия структуры для сайтостроения';
     })
     $('.title').on('mouseenter',function(){
         document.getElementById('title').style.color = "green";
