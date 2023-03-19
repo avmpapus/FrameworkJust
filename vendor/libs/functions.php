@@ -1,4 +1,4 @@
 <?php
 function index(){
-    echo 'Just v1.0';
+    echo 'Just v2.0';
 }
