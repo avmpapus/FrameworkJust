@@ -1,3 +1,7 @@
+<?php
+require_once 'vendor/libs/functions.php';
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -86,7 +90,7 @@ $(function(){
 
 <div class="content">
 <div class="title m-b-md" id="title" onmouseenter="title(this)">
-                    Just v1.0
+                    <?php echo index()?>
                 </div>
                 <p>
                 <div id="sok">Добро пожаловать в структуру PHP</div>
