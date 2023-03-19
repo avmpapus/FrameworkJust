@@ -75,7 +75,7 @@ require_once 'vendor/libs/functions.php';
 <script>
 $(function(){
     $('.title').on('click',function(){
-        document.getElementById('sok').innerText='Just v1.0 - первая версия структуры для сайтостроения';
+        document.getElementById('sok').innerText='Just v2.0 - вторая версия структуры для сайтостроения';
     })
     $('.title').on('mouseenter',function(){
         document.getElementById('title').style.color = "green";
