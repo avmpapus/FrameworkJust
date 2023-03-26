@@ -1,5 +1,6 @@
 <?php
 require_once 'vendor/libs/functions.php';
+require_once 'app/controllers/controller.php';
 ?>
 
 <!DOCTYPE html>
@@ -89,6 +90,9 @@ $(function(){
 <div class="flex-center position-ref full-height">
 
 <div class="content">
+    <?php
+    echo $cat->age;
+    ?>
 <div class="title m-b-md" id="title" onmouseenter="title(this)">
                     <?php echo index()?>
                 </div>
