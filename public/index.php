@@ -1,7 +1,9 @@
 <?php
 require_once 'vendor/libs/functions.php';
 require_once 'app/controllers/controller.php';
+require_once 'app/entity/entity.php';
 ?>
+
 
 <!DOCTYPE html>
 <html lang="en">
@@ -101,12 +103,11 @@ $(function(){
                 </p>
 
 <div class="links">
-    <a href="/about">About</a>
-<a href="/news">News</a>
-<a href="/blogs">Blogs</a>
-<a href="/contactsus">Contacts Us</a>
-<a href="/services">Services</a>
-<a href="/new">New</a>
+
+<?php
+echo $entity->getIndex();
+#echo $Block->getShow();
+?>
 </div>
 
 </div>
