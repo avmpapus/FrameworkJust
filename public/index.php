@@ -106,7 +106,6 @@ $(function(){
 
 <?php
 echo $entity->getIndex();
-#echo $Block->getShow();
 ?>
 </div>
 
